@@ -1,3 +1,11 @@
+# Modifications of this fork
+
+This theme was modified to allow users to run hugo websites from the index.html file. In addition to using this theme the following lines need to be added to the `config.toml` file of the hugo project:
+```
+relativeURLs = true
+uglyURLs = true
+```
+
 # Ananke, A theme for [Hugo](https://gohugo.io/), a framework for building websites.
 
 The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
